@@ -22,7 +22,7 @@ steps:
 - task: AzureResourceManagerTemplateDeployment@3
   inputs:
     deploymentScope: 'Resource Group'
-    azureResourceManagerConnection: '98ee9de1-d7d0-4a8d-b753-a85fb0673dde'
+    azureResourceManagerConnection: '11a80fde-900c-4e0b-8969-e971ba005bcb'
     subscriptionId: '43d01f5c-a32d-4608-bf49-b1892c5e23a2'
     action: 'Create Or Update Resource Group'
     resourceGroupName: 'ARMPipelinesLAMP-rg'
